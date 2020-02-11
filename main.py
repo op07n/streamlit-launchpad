@@ -58,6 +58,7 @@ class DefaultProxyHandler(tornado.web.RequestHandler):
 
             proc = subprocess.Popen(['streamlit', 'run', os.path.join('./', scan_folder_name, appname),
                                      '--server.port', str(port),
+                                     '--server.enableCORS','False',
                                      '--server.headless', 'True'])
 
             proxymap[appname] = {'proc': proc, 'port': port}
@@ -95,6 +96,7 @@ def make_app():
 
 if __name__ == "__main__":
     app = make_app()
-    app.listen(8888)
+    app.listen(8080)
     tornado.ioloop.IOLoop.current().start()
+
 
