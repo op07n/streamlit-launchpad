@@ -10,7 +10,13 @@ Add  '--server.enableCORS','False',    at  subprocess.Popen...   in main.py
 
 For main access index page add /proxy/8080/  to url binderhub
 
-Every click on main access index page show the port to use ( /proxy/8085/  ,   /proxy/8086/  or  /proxy/8087/ )
+Every option on main access index page show the port to use :
+
+......................./proxy/8080/intro.py/
+......................./proxy/8080/plot_example.py/
+......................./proxy/8080/uber_nyc_data_explorer.py/
+
+( /proxy/8085/  ,   /proxy/8086/  or  /proxy/8087/ )
 
 -------------------------------------------------------------------------------------------------
 
