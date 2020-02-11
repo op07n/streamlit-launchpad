@@ -8,6 +8,14 @@ Change   app.listen(8888) to   app.listen(8080)  in  main.py
 
 Add  '--server.enableCORS','False',    at  subprocess.Popen...   in main.py
 
+Open terminal and type:
+
+```
+cd streamlit-launchpad
+
+python main.py
+```
+
 For main access index page add /proxy/8080/  to url binderhub
 
 Every option on main access index page show the port to use :
