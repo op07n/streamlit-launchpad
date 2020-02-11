@@ -2,7 +2,7 @@
 
 Test with binderHub:
 
-https://mybinder.org/v2/gh/op07n/mygenericbinder2/master?urlpath=git-pull?repo=https://github.com/ideonate/streamlit-launchpad
+https://mybinder.org/v2/gh/op07n/mygenericbinder2/master?urlpath=git-pull?repo=https://github.com/op07n/streamlit-launchpad
 
 Change   app.listen(8888) to   app.listen(8080)  in  main.py
 
